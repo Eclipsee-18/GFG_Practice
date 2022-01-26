@@ -5,7 +5,7 @@ public class Fibonacci {
      int n=sc.nextInt();
       sc.close();
       System.out.print(n1+" "+n2);
-        printfibonacci(n-2);
+      printfibonacci(n-2);
     }
     static int n1=0,n2=1,n3=0;
     static void printfibonacci(int n)
